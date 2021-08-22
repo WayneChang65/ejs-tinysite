@@ -11,7 +11,7 @@ ejs-Tinysite is a tiny but completed website designed with [ejs](https://ejs.co/
 Tiny but completed. Basically, ejs-Tinysite is a website system that includes basic membership management.  
 
 ### 功能 (Features)  
-* 會員註冊。填入名字、eMail以及密碼進行註冊。
+* 會員註冊。填入名字、eMail以及密碼進行註冊。  
 Member register. Input a name, eMail and password to register.  
 * 會員登入。使用eMail及密碼可登入並建立Session維持連線。  
 Member login. Build a session to keep the connection.  
