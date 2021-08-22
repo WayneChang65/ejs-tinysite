@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head'); %>
+</head>
+
+<body class="container">
+  <main>
+    <div class="jumbotron">
+      <form class="form-signin" action="/login" method="POST">
+        <div class="text-center mb-4">
+          <img class="mb-4" src="/img/cat.svg" alt="" width="72" height="72">
+          <h1 class="h3 mb-3 font-weight-normal">Sign in</h1>
+        </div>
+        <div class="form-label-group mb-2 row-cols-3 row justify-content-center">
+          <input type="email" id="email" name="email" class="form-control" placeholder="Email address"
+            required="required">
+        </div>
+        <div class="form-label-group mb-4 row-cols-3 row justify-content-center">
+          <input type="password" id="password" name="password" class="form-control" placeholder="Password"
+            required="required">
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <a href="/register">Registor</a>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <%- include('../partials/footer'); %>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head'); %>
+</head>
+
+<body class="container">
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
+
+  <main>
+    <div class="jumbotron">
+      <h1 class="display-4"><%= title %></h1>
+      <hr class="my-4">
+      <ul>
+        <% content.forEach((item) => { %>
+        <li>
+          <p>
+            <strong>【<%= item.season %>】</strong>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <%= item.feeling %>
+          </p>
+        </li>
+        <% }); %>
+      </ul>
+      <form action="/logout?_method=DELETE" method="POST">
+        <button type="submit">LOGOUT</button>
+      </form>
+    </div>
+    
+  </main>
+
+  <footer>
+    <%- include('../partials/footer'); %>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+    "NOT_ALLOW_TO_SEE": "Sorry! You can NOT see it.",
+    "NO_USER_ACCOUNT": "No user with the email",
+    "LOGIN_OK": "Thanks for login.",
+    "WRONG_PASSWORD": "Password incorrect.",
+    "LOGOUT": "Logout. Good bye.",
+    "USERS_DB_EMPTY": "Users data is empty."
+}
