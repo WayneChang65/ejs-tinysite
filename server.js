@@ -17,6 +17,7 @@ const PORT = process.env.EJS_TINYSITE_POST || 8080;
 
 passport_config.init(passport);
 
+app.disable('x-powered-by');
 app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: false }));
 app.use(flash());
